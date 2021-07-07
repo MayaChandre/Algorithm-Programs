@@ -12,7 +12,7 @@ public class BubbleSort {
                  {  
                           if(arr[j-1] > arr[j])
                           {  
-                                 //swap elements  
+                               //swap elements 
                                  temp = arr[j-1];  
                                  arr[j-1] = arr[j];  
                                  arr[j] = temp;  
@@ -40,7 +40,8 @@ public class BubbleSort {
                 //sorting array elements using bubble sort  
                  
                 System.out.println("Array After Bubble Sort");  
-                for(int i=0; i < arr.length; i++){  
+                for(int i=0; i < arr.length; i++)
+                {  
                         System.out.print(arr[i] + " ");  
                 }  
    
