@@ -19,7 +19,8 @@ public class BinarySearch {
             {
                 l = m + 1;
             }
-            else {
+            else
+            {
                 r = m - 1;
             }
             
