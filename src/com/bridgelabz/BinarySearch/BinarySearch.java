@@ -16,7 +16,8 @@ public class BinarySearch {
                 return m;
  
        
-            else if (res > 0) {
+            else if (res > 0) 
+            {
                 l = m + 1;
             }
             else {
