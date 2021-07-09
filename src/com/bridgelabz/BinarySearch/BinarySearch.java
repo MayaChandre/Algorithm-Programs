@@ -2,7 +2,7 @@ package com.bridgelabz.BinarySearch;
 
 public class BinarySearch {
 
-	// Returns index of x if it is present in arr[],
+// Returns index of x if it is present in arr[],
 	
     static int binarySearch(String[] arr, String x)
     {
