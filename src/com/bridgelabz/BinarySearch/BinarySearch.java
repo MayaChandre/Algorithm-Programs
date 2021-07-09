@@ -11,7 +11,7 @@ public class BinarySearch {
             int m = l + (r - l) / 2;
             int res = x.compareTo(arr[m]);
  
-            // Check if x is present at mid
+            // Check x is present at mid
             if (res == 0)
                 return m;
  
